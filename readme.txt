@@ -2,11 +2,6 @@ How to build
 -------------
 run: mvn clean install
 
-(if the build fails with can not find carbon-messaging 1.0.2-SNAPSHOT, Please build
-https://github.com/wso2/carbon-messaging fist locally to get the required dependency)
-this is because we are depending on unreleased version (1.0.2-SNAPSHOT).
-
-
 How to add the handler to the GW
 --------------------------------
 Once it is build, copy the
