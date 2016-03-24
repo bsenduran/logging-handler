@@ -43,6 +43,9 @@ public class LoggingHandler implements MessagingHandler {
     private Logger log = LoggerFactory.getLogger(LoggingHandler.class);
 
     @Override
+    /**
+     * request should have a header named "hello_continue" to pass the validation
+     */
     public boolean validateRequestContinuation(CarbonMessage carbonMessage, CarbonCallback carbonCallback) {
         String hello_continue = carbonMessage.getHeader("hello_continue");
         if (hello_continue == null) {
