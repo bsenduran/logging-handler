@@ -17,3 +17,5 @@ out from camel engine
 
 for more information on the invocation points please refer:
 https://github.com/wso2/carbon-messaging/blob/master/components/src/main/java/org/wso2/carbon/messaging/handler/MessagingHandler.java
+
+fixing issue1 incorrectly. Now fixing correctly :)
